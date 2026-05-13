@@ -1,20 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ORBITAL ECOMMERCE</title>
-    <!-- CSS EXTERNO -->
-    <link rel="stylesheet" href="style.css">
-
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orbital — Produtos</title>
+  <link rel="stylesheet" href="src/css/estilo.css" />
 </head>
 <body>
-    
 
+  <header>
+    <nav>
+      <a class="logo" href="index.html">Orbi<span>tal</span></a>
+      <ul>
+        <li><a href="index.html" class="ativo">Produtos</a></li>
+        <li><a href="src/pages/loja.html">Carrinho</a></li>
+        <li><a href="src/pages/sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section class="hero">
+      <h1>Os melhores produtos, com os <em>melhores preços</em></h1>
+      <p>Produtos selecionados com obsessão por qualidade e beleza atemporal.</p>
+    </section>
 
-    <!-- JS EXTERNO -->
-     <script src="src/js/script.js"></script>
+    <h2 class="section-titulo">Produtos em Destaque</h2>
+
+    <!-- Os 5 cards são inseridos aqui via JavaScript/DOM -->
+    <section id="grade-produtos" aria-label="Grade de produtos"></section>
+  </main>
+
+  <footer>
+    <p>© 2025 <span>Orbital</span> — Feito com cuidado e código limpo.</p>
+  </footer>
+
+  <script src="src/js/script.js"></script>
 </body>
 </html>
