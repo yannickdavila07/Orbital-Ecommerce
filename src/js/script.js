@@ -108,11 +108,11 @@ function mostrarNotificacao(nome) {
 // LOJA.HTML — CARRINHO COM REDUCE + DOM
 
 const carrinho = [
-  { nome: "Spider-Man Superior Suit",       qtd: 1, preco: 849.90,  imagem: "src/img/spiderman.jpg" },
-  { nome: "Venom — Symbiote Rage",           qtd: 2, preco: 1249.00, imagem: "src/img/venom.jpg" },
-  { nome: "Miles Morales — Into the Spider-Verse", qtd: 1, preco: 620.00,  imagem: "src/img/miles.jpg" },
-  { nome: "Carnificina — Lethal Protector",  qtd: 1, preco: 1390.00, imagem: "src/img/carnificina.jpg" },
-  { nome: "Duende Verde — Pumpkin Bomb",     qtd: 3, preco: 980.00,  imagem: "src/img/duende.jpg" },
+  { nome: "Spider-Man Superior Suit",             qtd: 1, preco: 849.90,  imagem: "/src/img/spiderman.jpg" },
+  { nome: "Venom — Symbiote Rage",                qtd: 2, preco: 1249.00, imagem: "/src/img/venom.jpg" },
+  { nome: "Miles Morales — Into the Spider-Verse",qtd: 1, preco: 620.00,  imagem: "/src/img/miles.jpg" },
+  { nome: "Carnificina — Lethal Protector",       qtd: 1, preco: 1390.00, imagem: "/src/img/carnificina.jpg" },
+  { nome: "Duende Verde — Pumpkin Bomb",          qtd: 3, preco: 980.00,  imagem: "/src/img/duende.jpg" },
 ];
 
 let totalAtual = 0;
