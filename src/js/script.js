@@ -115,6 +115,7 @@ const carrinho = [
   { nome: "Duende Verde — Pumpkin Bomb",          qtd: 3, preco: 980.00,  imagem: "/src/assents/img/duende.jpg" },
 ];
 
+
 let totalAtual = 0;
 let descontoAplicado = false;
 
