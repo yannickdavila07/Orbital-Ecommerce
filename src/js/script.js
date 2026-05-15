@@ -7,7 +7,7 @@ const produtos = [
     categoria: "Marvel",
     descricao: "Action figure do Homem-Aranha com traje Superior e braços mecânicos articulados. Escala 1:6.",
     preco: 849.90,
-    imagem: "src/img/spiderman.jpg"
+    imagem: "src/assents/img/spiderman.jpg"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const produtos = [
     categoria: "Marvel",
     descricao: "Estátua premium do Venom em pose de ataque com tentáculos de simbionte. Base de pedra inclusa.",
     preco: 1249.00,
-    imagem: "src/img/venom.jpg"
+    imagem: "src/assents/img/venom.jpg"
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const produtos = [
     categoria: "Marvel",
     descricao: "Figure articulado do Miles com headphone, spray e tênis exclusivos. Estilo Spider-Verse.",
     preco: 620.00,
-    imagem: "src/img/miles.jpg"
+    imagem: "src/assents/img/miles.jpg"
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const produtos = [
     categoria: "Marvel",
     descricao: "Estátua do Carnage em pose dinâmica com filamentos de simbionte vermelho. Edição limitada.",
     preco: 1390.00,
-    imagem: "src/img/carnificina.jpg"
+    imagem: "src/assents/img/carnificina.jpg"
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const produtos = [
     categoria: "Marvel",
     descricao: "Figura do Duende Verde com abóboras iluminadas e base de rocha. Detalhes pintados à mão.",
     preco: 980.00,
-    imagem: "src/img/duende.jpg"
+    imagem: "src/assents/img/duende.jpg"
   }
 ];
 
@@ -108,11 +108,11 @@ function mostrarNotificacao(nome) {
 // LOJA.HTML — CARRINHO COM REDUCE + DOM
 
 const carrinho = [
-  { nome: "Spider-Man Superior Suit",             qtd: 1, preco: 849.90,  imagem: "/src/img/spiderman.jpg" },
-  { nome: "Venom — Symbiote Rage",                qtd: 2, preco: 1249.00, imagem: "/src/img/venom.jpg" },
-  { nome: "Miles Morales — Into the Spider-Verse",qtd: 1, preco: 620.00,  imagem: "/src/img/miles.jpg" },
-  { nome: "Carnificina — Lethal Protector",       qtd: 1, preco: 1390.00, imagem: "/src/img/carnificina.jpg" },
-  { nome: "Duende Verde — Pumpkin Bomb",          qtd: 3, preco: 980.00,  imagem: "/src/img/duende.jpg" },
+  { nome: "Spider-Man Superior Suit",             qtd: 1, preco: 849.90,  imagem: "/src/assents/img/spiderman.jpg" },
+  { nome: "Venom — Symbiote Rage",                qtd: 2, preco: 1249.00, imagem: "/src/assents/img/venom.jpg" },
+  { nome: "Miles Morales — Into the Spider-Verse",qtd: 1, preco: 620.00,  imagem: "/src/assents/img/miles.jpg" },
+  { nome: "Carnificina — Lethal Protector",       qtd: 1, preco: 1390.00, imagem: "/src/assents/img/carnificina.jpg" },
+  { nome: "Duende Verde — Pumpkin Bomb",          qtd: 3, preco: 980.00,  imagem: "/src/assents/img/duende.jpg" },
 ];
 
 let totalAtual = 0;
