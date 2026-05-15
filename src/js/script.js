@@ -1,46 +1,45 @@
-
 // DADOS DOS PRODUTOS
 
 const produtos = [
   {
     id: 1,
-    nome: "Câmera Analógica Vintage",
-    categoria: "Fotografia",
-    descricao: "Capture momentos com a magia da película. Design clássico dos anos 80.",
-    preco: 349.90,
-    imagem: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&h=300&fit=crop"
+    nome: "Spider-Man Superior Suit",
+    categoria: "Marvel",
+    descricao: "Action figure do Homem-Aranha com traje Superior e braços mecânicos articulados. Escala 1:6.",
+    preco: 849.90,
+    imagem: "src/img/spiderman.jpg"
   },
   {
     id: 2,
-    nome: "Fone Bluetooth Premium",
-    categoria: "Áudio",
-    descricao: "Som envolvente com cancelamento de ruído. Bateria de 40 horas.",
-    preco: 589.00,
-    imagem: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop"
+    nome: "Venom — Symbiote Rage",
+    categoria: "Marvel",
+    descricao: "Estátua premium do Venom em pose de ataque com tentáculos de simbionte. Base de pedra inclusa.",
+    preco: 1249.00,
+    imagem: "src/img/venom.jpg"
   },
   {
     id: 3,
-    nome: "Relógio Minimalista",
-    categoria: "Acessórios",
-    descricao: "Design escandinavo com pulseira de couro genuíno. À prova d'água.",
-    preco: 420.00,
-    imagem: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop"
+    nome: "Miles Morales — Into the Spider-Verse",
+    categoria: "Marvel",
+    descricao: "Figure articulado do Miles com headphone, spray e tênis exclusivos. Estilo Spider-Verse.",
+    preco: 620.00,
+    imagem: "src/img/miles.jpg"
   },
   {
     id: 4,
-    nome: "Mochila Urban Explorer",
-    categoria: "Bolsas",
-    descricao: "Espaçosa e resistente. Compartimento para notebook de até 15 polegadas.",
-    preco: 279.90,
-    imagem: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop"
+    nome: "Carnificina — Lethal Protector",
+    categoria: "Marvel",
+    descricao: "Estátua do Carnage em pose dinâmica com filamentos de simbionte vermelho. Edição limitada.",
+    preco: 1390.00,
+    imagem: "src/img/carnificina.jpg"
   },
   {
     id: 5,
-    nome: "Luminária de Mesa Arc",
-    categoria: "Casa",
-    descricao: "Iluminação LED ajustável com carregador wireless integrado.",
-    preco: 198.00,
-    imagem: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=300&fit=crop"
+    nome: "Duende Verde — Pumpkin Bomb",
+    categoria: "Marvel",
+    descricao: "Figura do Duende Verde com abóboras iluminadas e base de rocha. Detalhes pintados à mão.",
+    preco: 980.00,
+    imagem: "src/img/duende.jpg"
   }
 ];
 
@@ -109,11 +108,11 @@ function mostrarNotificacao(nome) {
 // LOJA.HTML — CARRINHO COM REDUCE + DOM
 
 const carrinho = [
-  { nome: "Câmera Analógica Vintage",  qtd: 1, preco: 349.90, imagem: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=120&h=80&fit=crop" },
-  { nome: "Fone Bluetooth Premium",    qtd: 2, preco: 589.00, imagem: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=120&h=80&fit=crop" },
-  { nome: "Relógio Minimalista",        qtd: 1, preco: 420.00, imagem: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=120&h=80&fit=crop" },
-  { nome: "Mochila Urban Explorer",    qtd: 1, preco: 279.90, imagem: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=120&h=80&fit=crop" },
-  { nome: "Luminária de Mesa Arc",     qtd: 3, preco: 198.00, imagem: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=120&h=80&fit=crop" },
+  { nome: "Spider-Man Superior Suit",             qtd: 1, preco: 849.90,  imagem: "/src/img/spiderman.jpg" },
+  { nome: "Venom — Symbiote Rage",                qtd: 2, preco: 1249.00, imagem: "/src/img/venom.jpg" },
+  { nome: "Miles Morales — Into the Spider-Verse",qtd: 1, preco: 620.00,  imagem: "/src/img/miles.jpg" },
+  { nome: "Carnificina — Lethal Protector",       qtd: 1, preco: 1390.00, imagem: "/src/img/carnificina.jpg" },
+  { nome: "Duende Verde — Pumpkin Bomb",          qtd: 3, preco: 980.00,  imagem: "/src/img/duende.jpg" },
 ];
 
 let totalAtual = 0;
